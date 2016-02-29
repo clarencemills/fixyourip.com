@@ -23,10 +23,6 @@ include 'includes/site_info.inc';
 <!-- End Piwik Code -->
 
 
-
-<!-- Google add 1 button -->
-<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
-
 <!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -41,10 +37,6 @@ include 'includes/site_info.inc';
 
 <!-- End Google Analytics -->
 
-<!-- Begin Oreilly advertising -->
-<script src="http://www.anrdoezrs.net/am/7724844/include/allCj/am.js"></script>
-<!-- End advertising -->
-<input type='hidden' value='accupub.org/iDHhxGtbK71xApSmx96z8rShYF' />
 
 </body>
 </html>
