@@ -1,7 +1,6 @@
 <?php
 
 include '/includes/tools_header.inc';
-include '/tools/includes/toolsheader.inc';
 
 echo "<center>";
 echo "<table width=50%>";
