@@ -79,9 +79,9 @@ echo "</tr>";
 
 echo "</table>";
 
-include 'includes/lookups.inc';
+include '/includes/lookups.inc';
 echo "<br>";
-include 'includes/adds/google_add.inc';
+include '/includes/adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include '/includes/footer.inc';
 ?>
