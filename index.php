@@ -56,7 +56,7 @@ echo "<center>";
 echo "<table width=50%>";
 echo "<tr>
 	<td align=left>";
-                echo "<h4>DNS Lookup (FQDN)</h4>";
+                echo "<h4>DNS Lookup - enter your FQDN)</h4>";
                 echo "Lookup A, MX, SOA, txt, cname records<br>";
 		echo "<form action=resolve_dns.php method=post>";
 		echo "<input type=text name=ip>";
