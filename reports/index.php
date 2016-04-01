@@ -1,6 +1,6 @@
 <?php
 
-include 'includes/reports.inc';
+include '/includes/reports.inc';
 
 echo "<center>";
 echo "<table width=50%>";
