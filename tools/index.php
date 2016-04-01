@@ -1,4 +1,5 @@
 <?php
+set_include_path ("/var/html/fixyourip.com/");
 include_once 'includes/tools_header.inc';
 
 echo "<center>";
