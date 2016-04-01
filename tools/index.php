@@ -1,5 +1,5 @@
 <?php
-require 'includes/tools_header.inc';
+include_once 'includes/tools_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
