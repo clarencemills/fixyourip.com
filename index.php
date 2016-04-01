@@ -104,7 +104,7 @@ echo "<tr>";
 	echo "</td>";
 	echo "<td align=left>";
                 echo "<form action=net_resolve.php method=post>";
-                echo "<h4>Lookup ASN Info</h4>";
+                echo "<h4>Get ASN Info</h4>";
                 echo "Enter IP Address";
                 echo "<br>";
                 echo "<input type=text name=ip>";
