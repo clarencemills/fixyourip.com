@@ -80,7 +80,7 @@ echo "<tr>
 	echo "</td>";	
 	echo "<td align=left>";
                 echo "<form action=net_resolve.php method=post>";
-                echo "<h4>Advanced Whois Lookup</h4>";
+                echo "<h4>Whois Lookup</h4>";
                 echo "IP or Domain<br>";
                 echo "<input type=text name=whois>";
                 echo "<input type=hidden name=tool_option value=whois>";
