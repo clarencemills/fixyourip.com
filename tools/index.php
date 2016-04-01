@@ -35,6 +35,24 @@ echo "</tr>";
 echo "</table>";
 echo "</center";
 
+
+echo "<center>";
+echo "<table width=50%>";
+echo "<tr>";
+echo "<td align=left>";
+print ('<b>IP:</b> '.$_SERVER['REMOTE_ADDR'].'');
+echo "<br>";
+echo "<b>Reverse DNS: </b>";
+echo  shell_exec('dig -4 +short -x '.$_SERVER['REMOTE_ADDR'].'');
+echo "</A>";
+echo "<h4>&nbsp;</h4>";
+echo "</td>";
+echo "<td>";
+echo "</tr>";
+echo "</table>";
+echo "</center";
+
+
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
