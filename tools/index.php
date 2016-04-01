@@ -1,7 +1,7 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/tools_header.inc';
-include 'tools/includes/toolsheader.inc';
+
+include '/includes/tools_header.inc';
+include '/tools/includes/toolsheader.inc';
 
 echo "<center>";
 echo "<table width=50%>";
