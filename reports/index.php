@@ -1,5 +1,5 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
+set_include_path ("/var/www/fixyourip.com/");
 include '/includes/reports.inc';
 
 echo "<center>";
