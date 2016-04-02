@@ -1,5 +1,5 @@
 <?php
-set_include_path ("/var/html/fixyourip.com/");
+set_include_path ("/var/www/html/fixyourip.com/");
 include_once 'includes/tools_header.inc';
 
 echo "<center>";
