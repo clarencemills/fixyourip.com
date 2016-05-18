@@ -2,7 +2,9 @@
 set_include_path ('.:../includes:../../includes');
 include 'header.inc';
 include 'library_header.inc';
+?>
 
+<?php
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
