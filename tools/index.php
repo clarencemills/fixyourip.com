@@ -1,5 +1,5 @@
 <?php
-set_include_path ('/.:../includes:../../includes');
+set_include_path ('/:.:../includes:../../includes');
 include_once 'tools_header.inc';
 
 echo "<center>";
