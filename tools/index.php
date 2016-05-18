@@ -13,7 +13,7 @@ echo "<table cellspacing=10>";
 		echo "<font size=6><b>FixYourIP</b></font>";
 	echo "</td>";
 	echo "<td>";
-		echo "<font size=3><b><a href=index.php>Home</a></b></font>";
+		echo "<font size=3><b><a href=/index.php>Home</a></b></font>";
 	echo "</td>";
 	echo "<td>";
 		echo "<font size=3><b><a href=tools>Tools</a></b></font>";
