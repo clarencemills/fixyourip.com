@@ -1,30 +1,30 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
+set_include_path ('.:../includes:../../includes../../../includes');
 
-$target = "/tmp/"; 
-$target = "$target" . basename($_FILES['file']['name']) ; 
-$ok=1; 
-if(move_uploaded_file($_FILES['file']['tmp_name'], "$target")) 
+$target = "/tmp/";
+$target = "$target" . basename($_FILES['file']['name']) ;
+$ok=1;
+if(move_uploaded_file($_FILES['file']['tmp_name'], "$target"))
  {
- 	set_include_path ("/var/www/html/fixyourip.com/");
-        include 'includes/header.inc';
-        include 'includes/page_header.inc';
+ 	set_include_path ('.:../includes:../../includes');
+        include 'header.inc';
+        include 'page_header.inc';
 
  	//echo "The file ". basename( $_FILES['file']['name']). " has been uploaded";
 	echo "<pre>";
 	echo shell_exec('/usr/bin/convert_certs.sh '.$target.'');
 	echo "</pre>";
 
-	include 'includes/page_footer.inc';
-        include 'includes/lookups.inc';
-        include 'includes/add1.inc';
-        include 'includes/footer.inc';
-        echo "</center>";	
- } 
+	include 'page_footer.inc';
+        include 'lookups.inc';
+        include 'add1.inc';
+        include 'footer.inc';
+        echo "</center>";
+ }
  else {
-	set_include_path ("/var/www/html/fixyourip.com/");
-        include 'includes/header.inc';
-        include 'includes/page_header.inc';
+   set_include_path ('.:../includes:../../includes');
+        include 'header.inc';
+        include 'page_header.inc';
 
 	echo "Sorry, there was a problem uploading your file.";
 	echo "<br>";
@@ -32,10 +32,10 @@ if(move_uploaded_file($_FILES['file']['tmp_name'], "$target"))
 	echo "<br>";
 	echo "<br>";
 
-	include 'includes/page_footer.inc';
-        include 'includes/lookups.inc';
-        include 'includes/add1.inc';
-        include 'includes/footer.inc';
+	include 'page_footer.inc';
+        include 'lookups.inc';
+        include 'add1.inc';
+        include 'footer.inc';
         echo "</center>";
  }
 

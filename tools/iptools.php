@@ -1,12 +1,12 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/iptools.inc';
+set_include_path ('.:../includes:../../includes');
+include 'header_ip.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
         echo "<td align=left>";
-                include 'includes/adds/google_add.inc';
+                include 'adds/google_add.inc';
                 echo "<br>";
                 echo "<table cellspacing=10>";
                 echo "<tr valign=bottom>";
@@ -189,10 +189,10 @@ echo "<tr>";
 echo "</tr>";
 echo "</table>";
 
-include 'includes/lookups.inc';
+include 'lookups.inc';
 echo "<br>";
 
 include 'includes/add1.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

@@ -1,6 +1,6 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include_once 'includes/tools_header.inc';
+set_include_path ('.:../includes:../../includes');
+include_once 'tools_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
@@ -58,7 +58,7 @@ echo "<table width=50%>";
 echo "<tr>";
 	echo "<td align=left>";
 		echo "<h3>Tools </h3>";
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 
 echo "<tr>";
@@ -79,9 +79,9 @@ echo "</tr>";
 
 echo "</table>";
 
-include '/includes/lookups.inc';
+include 'lookups.inc';
 echo "<br>";
-include '/includes/adds/google_add.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include '/includes/footer.inc';
+include 'footer.inc';
 ?>

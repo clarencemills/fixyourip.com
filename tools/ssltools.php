@@ -1,12 +1,12 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/ssltools.inc';
+set_include_path ('.:../includes:../../includes');
+include 'ssltools.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
         echo "<td align=left>";
-                include 'includes/adds/google_add.inc';
+                include 'adds/google_add.inc';
                 echo "<br>";
                 echo "<table cellspacing=10>";
                 echo "<tr valign=bottom>";
@@ -141,10 +141,10 @@ echo "<tr>";
 echo "</tr>";
 echo "</table>";
 
-include 'includes/lookups.inc';
+include 'lookups.inc';
 echo "<br>";
 //include 'includes/add1.inc';
 echo "<a href='http://www.securepaynet.net/Hosting/web-hosting2.aspx?ci=1782&prog_id=495959'><img src='https://img1.wsimg.com/rcc/extranet/marketing/banners/52072_v1_468x60.gif'/></a>";
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

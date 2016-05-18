@@ -1,7 +1,7 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/header_rootcas.inc';
-include 'library/includes/library_header.inc';
+set_include_path ('.:../includes:../../includes');
+include 'header_rootcas.inc';
+include 'library_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
@@ -9,7 +9,7 @@ echo "<tr>";
 	echo "<td align=left>";
 		echo "<h3>Trusted Root Certificates</h3>";
 		echo "<br>";
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 
 echo "<tr>";
@@ -17,8 +17,7 @@ echo "<tr>";
 ?>
 
 <?php
-
-include 'library/openssl/root.html';
+include 'root.html';
 ?>
 
 <?php
@@ -26,9 +25,9 @@ include 'library/openssl/root.html';
 echo "</tr>";
 echo "</table>";
 
-include 'includes/cert_lookup.inc';
+include 'cert_lookup.inc';
 echo "<br>";
-include 'includes/adds/google_add.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

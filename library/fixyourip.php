@@ -1,14 +1,14 @@
 <?php
-set_include_path ("/var/www/html/fixyourip/");
-include 'includes/header_ip.inc';
-include 'library/includes/library_header.inc';
+set_include_path (".:includes:../includes");
+include 'header_ip.inc';
+include 'library_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
 	echo "<td align=left>";
 		echo "<h3>Library - Fix Your IP Address</h3>";
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 
 echo "<tr>";
@@ -171,9 +171,9 @@ ifconfig_xl0_alias0="inet xxx.xxx.xxx.xxx netmask xxx.xxx.xxx.xxx"
 echo "</tr>";
 echo "</table>";
 
-include 'includes/lookups.inc';
+include 'lookups.inc';
 echo "<br>";
-include 'includes/adds/google_add.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

@@ -1,6 +1,6 @@
 <?php
 $pass = $_POST["passwd"];
-set_include_path ("/var/www/html/fixyourip.com/");
+set_include_path ('.:../includes:../../includes');
 
 $target = "/tmp/";
  $target = "$target" . basename( $_FILES['file']['name']) ;
@@ -15,23 +15,23 @@ $target = "/tmp/";
         echo shell_exec('/usr/bin/display_pkcs12cert.sh '.$target.' '.$pass);
         echo "</pre>";
 
-        include 'includes/page_footer.inc';
-        include 'includes/lookups.inc';
-        include 'includes/add1.inc';
-        include 'includes/footer.inc';
+        include 'page_footer.inc';
+        include 'lookups.inc';
+        include 'add1.inc';
+        include 'footer.inc';
         echo "</center>";
  }
  else {
-        set_include_path ("/var/www/html/fixyourip/");
-        include 'includes/header.inc';
-        include 'includes/page_header.inc';
+        set_include_path ('.:../includes:../../includes');
+        include 'header.inc';
+        include 'page_header.inc';
 
          echo "Sorry, there was a problem uploading your file.";
 
-        include 'includes/page_footer.inc';
-        include 'includes/lookups.inc';
-        include 'includes/add1.inc';
-        include 'includes/footer.inc';
+        include 'page_footer.inc';
+        include 'lookups.inc';
+        include 'add1.inc';
+        include 'footer.inc';
         echo "</center>";
  }
 

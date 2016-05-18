@@ -1,14 +1,17 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/header_dns.inc';
-include 'library/includes/library_header.inc';
+set_include_path('.:../includes:../../includes');
+?>
+
+<?php
+include 'header_dns.inc';
+include 'library_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
 	echo "<td align=left>";
 		echo "<h3>Library - DNS Records</h3>";
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 
 echo "<tr>";
@@ -223,9 +226,9 @@ PTR-records map IP addresses to domain names (reverse of A-records). A PTR-recor
 echo "</tr>";
 echo "</table>";
 
-include 'includes/lookups.inc';
+include 'lookups.inc';
 echo "<br>";
-include 'includes/adds/google_add.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

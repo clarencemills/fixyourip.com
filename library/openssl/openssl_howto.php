@@ -1,7 +1,7 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/header_cert_howto.inc';
-include 'library/includes/library_header.inc';
+set_include_path ('.:../includes:../../includes');
+include 'header_cert_howto.inc';
+include 'library_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
@@ -9,7 +9,7 @@ echo "<tr>";
 	echo "<td align=left>";
 		echo "<h3>Library - Openssl Howto</h3>";
 		echo "<br>";
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 
 echo "<tr>";
@@ -116,9 +116,9 @@ Note:replace <b>CERTIFICATE_FILE</b> with the actual file which contains the cer
 echo "</tr>";
 echo "</table>";
 
-include 'includes/cert_lookup.inc';
+include 'cert_lookup.inc';
 echo "<br>";
-include 'includes/adds/google_add.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

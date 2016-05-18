@@ -1,12 +1,12 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/header_dns.inc';
+set_include_path ('.:../includes:../../includes');
+include 'header_dns.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
         echo "<td align=left>";
-                include 'includes/adds/google_add.inc';
+                include 'adds/google_add.inc';
                 echo "<br>";
                 echo "<table cellspacing=10>";
                 echo "<tr valign=bottom>";
@@ -77,7 +77,7 @@ echo "<tr>
 		echo "<input type=submit value=check>";
                 echo "<br><br>";
 		echo "</form>";
-	echo "</td>";	
+	echo "</td>";
 	echo "<td align=left>";
                 echo "<form action=../net_resolve.php method=post>";
                 echo "<h4>Advanced Whois Lookup</h4>";
@@ -180,5 +180,5 @@ echo "</table>";
 //include 'includes/add1.inc';
 echo "<a href='http://www.securepaynet.net/domainaddon/private-registration.aspx?ci=1779&prog_id=495959'><img src='https://img1.wsimg.com/rcc/extranet/marketing/banners/68090_Reseller_PrivReg_468x60_V2.gif'/></a>";
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

@@ -1,14 +1,14 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/display_cert.inc';
-include 'library/includes/library_header.inc';
+set_include_path ('.:../includes:../../includes');
+include 'display_cert.inc';
+include 'library_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
 	echo "<td align=left>";
 		echo "<h3>Display Certificate - Decode Certificate</h3>";
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 
 echo "<tr>";
@@ -48,7 +48,7 @@ Copy your certicate contents, including one of the matching set of lines above.
                 <br><br>
                 </form>
 		<p>
-		Decode and view the contents of your SSL/TLS certificates using this tool. 
+		Decode and view the contents of your SSL/TLS certificates using this tool.
 		<ul>
 		<li>View certificate Digital Thumbprint
 		<li>View The issuer of the certificate
@@ -67,9 +67,9 @@ Copy your certicate contents, including one of the matching set of lines above.
 echo "</tr>";
 echo "</table>";
 
-include 'includes/cert_lookup.inc';
-include 'includes/lookups.inc';
-include 'includes/adds/google_add.inc';
+include 'cert_lookup.inc';
+include 'lookups.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

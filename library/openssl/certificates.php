@@ -1,14 +1,14 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/header_cert.inc';
-include 'library/includes/library_header.inc';
+set_include_path ('.:../includes:../../includes');
+include 'header_cert.inc';
+include 'library_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
 	echo "<td align=left>";
 		echo "<h3>Library - Types of Certificates</h3>";
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 
 echo "<tr>";
@@ -56,7 +56,7 @@ For example, you could get one UC SSL Certificate to cover all of the following:
 <h3>Wildcard Certificate</h3>
 
 <p>
-A wildcard certificate can be used for an unlimited number of first level sub domains on a single domain name. For example, you could get a wildcard certificate for use for *.fixyourip.com as the common name. This certificate would secure 
+A wildcard certificate can be used for an unlimited number of first level sub domains on a single domain name. For example, you could get a wildcard certificate for use for *.fixyourip.com as the common name. This certificate would secure
 
 <ul>
 <li>www.abc.com
@@ -74,9 +74,9 @@ A wildcard certificate can be used for an unlimited number of first level sub do
 echo "</tr>";
 echo "</table>";
 
-include 'includes/cert_lookup.inc';
+include 'cert_lookup.inc';
 echo "<br>";
-include 'includes/adds/google_add.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

@@ -1,14 +1,17 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/header_cisco.inc';
-include 'library/includes/library_header.inc';
+set_include_path('.:../includes:../../includes');
+?>
+
+<?php
+include 'header_cisco.inc';
+include 'library_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
 	echo "<td align=left>";
 		echo "<h3>Library - Cisco Commands</h3>";
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 
 echo "<tr>";
@@ -24,8 +27,8 @@ echo "<tr>";
 	<br><br>
 	<pre>
 Interface                      Status         Protocol Description
-Vl1                            admin down     down     
-Vl4020                         up             up       
+Vl1                            admin down     down
+Vl4020                         up             up
 Fa0/1                          up             up       job3-eth1
 Fa0/2                          up             up       job4-eth1
 Fa0/3                          up             up       log2-eth1
@@ -41,7 +44,7 @@ or
 	<li>show interface Fa0/26 status
 	<br><br>
 	<pre>
-#show interfaces Fa0/26 status 
+#show interfaces Fa0/26 status
 Port      Name               Status       Vlan       Duplex  Speed Type
 Fa0/26    eth1               connected    trunk      a-full  a-100 10/100BaseTX
 	</pre>
@@ -62,8 +65,8 @@ Access Mode VLAN: 1 (default)
 Trunking Native Mode VLAN: 1 (default)
 Administrative Native VLAN tagging: enabled
 Voice VLAN: none
-Administrative private-vlan host-association: none 
-Administrative private-vlan mapping: none 
+Administrative private-vlan host-association: none
+Administrative private-vlan mapping: none
 Administrative private-vlan trunk native VLAN: none
 Administrative private-vlan trunk Native VLAN tagging: enabled
 Administrative private-vlan trunk encapsulation: dot1q
@@ -76,7 +79,7 @@ Pruning VLANs Enabled: 2-1001
 Capture Mode Disabled
 Capture VLANs Allowed: ALL
 	<pre>
- </ul> 
+ </ul>
 
 <h4>Create VLAN</h4>
 <p>
@@ -169,9 +172,9 @@ Capture VLANs Allowed: ALL
 echo "</tr>";
 echo "</table>";
 
-include 'includes/lookups.inc';
+include 'lookups.inc';
 echo "<br>";
-include 'includes/adds/google_add.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

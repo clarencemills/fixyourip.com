@@ -1,6 +1,6 @@
 <?php
-set_include_path ("/var/www/html/fixyourip/");
-include 'includes/header.inc';
+set_include_path ('.:../includes:../../includes');
+include 'header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
@@ -71,7 +71,7 @@ echo "<tr>
 		echo "<input type=submit value=check>";
                 echo "<br><br>";
 		echo "</form>";
-	echo "</td>";	
+	echo "</td>";
 	echo "<td align=left>";
                 echo "<form action=net_resolve.php method=post>";
                 echo "<h4>Advanced Whois Lookup</h4>";
@@ -287,7 +287,7 @@ echo "<tr>";
 echo "</tr>";
 echo "</table>";
 
-include 'includes/add1.inc';
+include 'add1.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

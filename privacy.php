@@ -1,6 +1,6 @@
 <?php
-set_include_path ("/var/www/html/fixyourip/");
-include 'includes/header_aboutus.inc';
+set_include_path ('.:../includes:../../includes');
+include 'header_aboutus.inc';
 
 echo "<center>";
 echo "<table width=50%>";
@@ -8,7 +8,7 @@ echo "<tr>";
         echo "<td align=left>";
                 include 'includes/adds/google_add.inc';
                 echo "<table cellspacing=10>";
-                echo "<tr valign=bottom>"; 
+                echo "<tr valign=bottom>";
 			echo "<td>";
                                 echo "<font size=6><b>FixYourIP</font>";
                         echo "</td>";
@@ -39,17 +39,17 @@ echo "<center>";
 echo "<table width=50%>";
 echo "<tr>
 	<td align=left>";
-	
-	
+
+
 		<iframe frameborder="no" width="300px" height="200px" src="http://fusion.opensitesolutions.com/server_services/piwik/index.php?module=CoreAdminHome&action=optOut&language=en">
 		</iframe>
 
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 echo "</table>";
 
-include 'includes/lookups.inc';
-include 'includes/adds/google_add.inc';
+include 'lookups.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>

@@ -1,6 +1,6 @@
 <?php
-
-include 'includes/header.inc';
+set_include_path ('.:includes:../../incldues:../../includes');
+include 'header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
@@ -77,7 +77,7 @@ echo "<tr>
 		echo "<input type=submit value=check>";
                 echo "<br><br>";
 		echo "</form>";
-	echo "</td>";	
+	echo "</td>";
 	echo "<td align=left>";
                 echo "<form action=net_resolve.php method=post>";
                 echo "<h4>Whois Lookup</h4>";

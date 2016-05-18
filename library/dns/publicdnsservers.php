@@ -1,14 +1,14 @@
 <?php
-set_include_path ("/var/www/html/fixyourip.com/");
-include 'includes/header_publicdnsservers.inc';
-include 'library/includes/library_header.inc';
+set_include_path (".:includes:../includes:../../includes");
+include 'header_publicdnsservers.inc';
+include 'library_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
 	echo "<td align=left>";
 		echo "<h3>Free Public DNS servers</h3>";
-	echo "</td>";	
+	echo "</td>";
 echo "</tr>";
 
 echo "<tr>";
@@ -35,7 +35,7 @@ echo "<tr>";
 8.8.8.8<br>
 8.8.4.4<br><br>
 
-<h4>Scrubit public dns servers</h4> 
+<h4>Scrubit public dns servers</h4>
 67.138.54.100<br>
 207.225.209.66<br><br>
 
@@ -59,9 +59,9 @@ echo "<tr>";
 echo "</tr>";
 echo "</table>";
 
-include 'includes/lookups.inc';
+include 'lookups.inc';
 echo "<br>";
-include 'includes/adds/google_add.inc';
+include 'adds/google_add.inc';
 echo "</center>";
-include 'includes/footer.inc';
+include 'footer.inc';
 ?>
