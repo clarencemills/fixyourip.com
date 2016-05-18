@@ -294,7 +294,7 @@ echo "<tr>";
 echo "</tr>";
 echo "<tr>";
         echo "<td align=left>";
-                echo "<form action=/net_resolve.php method=post>";
+                echo "<form action=net_resolve.php method=post>";
                 echo "<h4>DNS Zonecheck </h4>";
                 echo "Enter Domain Name (google.com)";
                 echo "<br>";
