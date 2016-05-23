@@ -1,16 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!--- begin header --->
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Online Network tools</title>
 <meta name="description" content="Network Tools, IP tools,DNS tools, SSL tools" />
 <meta name="keywords" content="dns lookup, whois lookup, ip owner, lookup asn info, view mail server certificate, ping ip, ping hostname, view mail server certificate, routing lookup, radb database lookup, RBL lookup, scan ip" />
 <meta name="author" content="Webmaster"/>
 <META HTTP-EQUIV="cache-control" content="public, must-revalidate"/>
 <Cache-Control: max-age=600/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
 <link href="/style.css" rel="stylesheet" type="text/css" />
 </head/>
 <body>

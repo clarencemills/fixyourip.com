@@ -1,12 +1,13 @@
 <?php
-set_include_path ('/:.:../includes:../../includes');
+set_include_path (':.:../includes:../../includes');
+include 'header.inc';
 include_once 'tools_header.inc';
 
 echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
 echo "<td align=left>";
-include 'includes/adds/google_add.inc';
+include 'adds/google_add.inc';
 echo "<table cellspacing=10>";
 	echo "<tr valign=bottom>";
 	echo "<td>";
