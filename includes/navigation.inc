@@ -2,7 +2,7 @@
 <tr>
         <td align=left>
 		<?php
-                include '/includes/adds/google_add.inc';
+                include 'adds/google_add.inc';
 		?>
                 <font size=5>FixYourIP</font>
 	</td>

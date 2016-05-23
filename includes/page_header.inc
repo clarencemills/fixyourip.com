@@ -6,7 +6,7 @@
 		<tr>
         		<td align=left>
 				<?php
-                		include 'includes/adds/google_add.inc';
+                		include 'adds/google_add.inc';
 				?>
                 		<table cellspacing=10>
                 		<tr valign=bottom>
