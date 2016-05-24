@@ -8,7 +8,7 @@
 				<?php
                 		include 'adds/google_add.inc';
 				?>
-                		<table cellspacing=10>
+                		<table class=table>
                 		<tr valign=bottom>
 					<td>
                                 		<font size=6><b>FixYourIP</font>
