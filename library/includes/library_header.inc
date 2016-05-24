@@ -5,10 +5,10 @@
 		<?php
                 include 'adds/google_add.inc';
 		?>
-                <table cellspacing=10>
+                <table class=table>
                 <tr valign=bottom>
                         <td>
-                                <font size=6><b>FixYourIP</b></font>
+                                <h1>FixYourIP</h1>
                         </td>
                         <td>
                                 <font size=3><b><a href=/index.php>Home</a></b></font>

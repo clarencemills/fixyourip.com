@@ -7,7 +7,7 @@ echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
         echo "<td align=left>";
-                echo "<h3>Internet Ports</h3>";
+                echo "<h1>Internet Ports</h1>";
                 echo "<br>";
         echo "</td>";
 echo "</tr>";

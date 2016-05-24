@@ -9,7 +9,7 @@ echo "<center>";
 echo "<table width=50%>";
 echo "<tr>";
 	echo "<td align=left>";
-		echo "<h3>Library </h3>";
+		echo "<h1>Library </h1>";
 	echo "</td>";
 echo "</tr>";
 

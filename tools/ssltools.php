@@ -8,7 +8,7 @@ echo "<tr>";
         echo "<td align=left>";
                 include 'adds/google_add.inc';
                 echo "<br>";
-                echo "<table cellspacing=10>";
+                echo "<table class=table>";
                 echo "<tr valign=bottom>";
 			echo "<td>";
                                 echo "<font size=6><b>FixYourIP</font>";
@@ -143,8 +143,7 @@ echo "</table>";
 
 include 'lookups.inc';
 echo "<br>";
-//include 'includes/add1.inc';
-echo "<a href='http://www.securepaynet.net/Hosting/web-hosting2.aspx?ci=1782&prog_id=495959'><img src='https://img1.wsimg.com/rcc/extranet/marketing/banners/52072_v1_468x60.gif'/></a>";
+include 'add1.inc';
 echo "</center>";
 include 'footer.inc';
 ?>
